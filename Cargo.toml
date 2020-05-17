@@ -1,11 +1,13 @@
 [package]
 name = "chained_iter"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ronny Chan <ronny@ronnychan.ca>"]
 repository = "https://github.com/chyyran/chained_iter"
 edition = "2018"
 license = "MIT"
 keywords = ["iter", "iterator", "stack", "vec", "no_std"]
 description = "Provides a small helper macro for creating iterators out of values without allocation."
+readme = "readme.md"
+
 [features]
 nightly = []
