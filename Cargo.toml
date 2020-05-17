@@ -1,6 +1,6 @@
 [package]
 name = "chained_iter"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Ronny Chan <ronny@ronnychan.ca>"]
 repository = "https://github.com/chyyran/chained_iter"
 edition = "2018"

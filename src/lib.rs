@@ -3,7 +3,7 @@
 #![no_std]
 #![cfg_attr(feature = "nightly", feature(array_value_iter))]
 
-/// Creates an `Iterator` containing the arguments, as a [`Chain`][Chain] of [`Once`][Once] iterators.
+/// Creates an [`Iterator`][Iterator] containing the arguments, as a [`Chain`][Chain] of [`Once`][Once] iterators.
 ///
 /// The created iterator allows arguments to be moved out of the iterator, and does not allocate.
 ///
@@ -16,6 +16,7 @@
 /// use chained_iter::chained_iter;
 /// assert_eq!(vec![1, 2, 3, 4], chained_iter![1, 2, 3, 4].collect::<Vec<_>>());
 /// ```
+/// [Iterator]: https://doc.rust-lang.org/std/iter/trait.Iterator.html
 /// [Chain]: https://doc.rust-lang.org/nightly/core/iter/struct.Chain.html
 /// [Once]: https://doc.rust-lang.org/nightly/core/iter/struct.Once.html
 /// [Vec]: https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html
