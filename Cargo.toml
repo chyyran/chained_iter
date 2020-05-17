@@ -9,6 +9,3 @@ keywords = ["iter", "iterator", "stack", "vec", "vector", "no_std"]
 
 [features]
 nightly = []
-
-[dependencies]
-select-rustc = "0.1"
