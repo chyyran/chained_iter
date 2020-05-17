@@ -1,0 +1,14 @@
+[package]
+name = "chained_iter"
+version = "0.1.0"
+authors = ["Ronny Chan <ronny@ronnychan.ca>"]
+repository = "https://github.com/chyyran/chained_iter"
+edition = "2018"
+license = "MIT"
+keywords = ["iter", "iterator", "stack", "vec", "vector", "no_std"]
+
+[features]
+nightly = []
+
+[dependencies]
+select-rustc = "0.1"
